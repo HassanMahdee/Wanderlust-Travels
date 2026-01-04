@@ -139,11 +139,13 @@ button {
 }
 @media (max-width: 768px) {
   header {
+    display: flex;
     flex-direction: column;
     height: auto;
     padding: 15px
   }
   nav ul {
+    display: flex;
     flex-direction: row;
     gap: 15px;
 margin-top: 15px;
