@@ -84,7 +84,8 @@ button {
   color: #ffffff;
   padding: 12px 24px;
   border: none;
-  border-radius: 8px
+  border-radius: 8px;
+  cursor: pointer;
 }
 #about {
   background-color: #ffffff;
@@ -149,8 +150,12 @@ padding: 60px 20px;
 #contact {
   color: #1e2a3b;
   background-color: #ffffff;
-  padding: 60px 20px;
+  padding: 20px;
   text-align: center;
+}
+#contact h3 {
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 #contact form {
   display: flex;
@@ -163,6 +168,15 @@ padding: 60px 20px;
   padding: 12px;
   border: 1px solid #d1d5db;
   border-radius: 8px;
+}
+#contact button {
+  background-color: #3B82F6;
+  color: #ffffff;
+  padding: 12px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
 footer {
   background-color: #1f2937;
