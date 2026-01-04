@@ -151,9 +151,9 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 15px;
     margin-top: 15px;
-    max-width: 100%;
+    padding: 0 10px;
+    width: 100%;
   }
   #about {
     flex-direction: column;
