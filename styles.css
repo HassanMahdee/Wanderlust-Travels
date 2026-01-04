@@ -151,7 +151,7 @@ button {
   nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 15px;
     padding: 0 10px;
     width: 100%;
