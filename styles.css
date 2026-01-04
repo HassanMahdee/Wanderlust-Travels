@@ -8,7 +8,6 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #f3f4f6;
 }
 h1, h2, h3, h4 {
   font-family: "Montserrat", sans-serif;
@@ -53,6 +52,7 @@ nav ul li a {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    overflow: hidden;
 }
 #hero .overlay {
   position: absolute;
@@ -80,28 +80,33 @@ button {
   color: #ffffff;
   padding: 12px 24px;
   border: none;
-  border-radius: 8x;
+  border-radius: 8px
 }
 #about {
-  background-color: #434446;
-  padding: 6px 20px;
+  background-color: #ffffff;
+  padding: 60px 20px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  height: auto;
+  width: auto;
+  position: relative;
+  z-index: 3;
 }
 #about img {
   flex: 1 1 400px;
-  border-radius: 8x;
+  border-radius: 8px;
   max-width: 500px;
 }
 #about p {
+  color: #1e2a3b;
   flex: 1 1 400px;
   font-size: 18px;
   line-height: 1.6;
 }
 #posts {
-background-color: #434446;
-padding: 6px 20px;
+background-color: #f3f4f6;
+padding: 60px 20px;
 }
 #posts .posts-container {
   display: flex;
@@ -109,7 +114,8 @@ padding: 6px 20px;
   gap: 10px;
 }
 .post {
-  background-color: #595b5e;
+  color: #1e2a3b;
+  background-color: #ffffff;
   flex: 1 1 calc(33.33% - 10px);
   padding: 20px;
   border-radius: 8px;
@@ -124,7 +130,7 @@ padding: 6px 20px;
   
 }
 .post h4{
-  color: #c58d8d;
+  color: #1e2a3b;
   font-size: 20px;
 }
 .post a{
