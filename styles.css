@@ -150,6 +150,7 @@ button {
     justify-content: center;
     gap: 15px;
     margin-top: 15px;
+    max-width: 100%;
   }
   #about {
     flex-direction: column;
