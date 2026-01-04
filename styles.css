@@ -71,3 +71,20 @@ button {
   border: none;
   border-radius: 8x;
 }
+#about {
+  background-color: #ffffff;
+  padding: 6px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#about img {
+  flex: 1 1 400px;
+  border-radius: 8x;
+  max-width: 500px;
+}
+#about p {
+  flex: 1 1 400px;
+  font-size: 18px;
+  line-height: 1.6;
+}
