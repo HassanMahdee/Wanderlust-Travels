@@ -146,6 +146,7 @@ button {
   }
   nav {
     max-width: 100%;
+    display: block;
   }
   nav ul {
     display: flex;
