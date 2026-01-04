@@ -144,7 +144,7 @@ button {
     padding: 15px
   }
   nav ul {
-    flex-direction: column;
+    flex-direction: row;
     gap: 15px;
 margin-top: 15px;
   }
