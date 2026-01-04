@@ -144,10 +144,13 @@ button {
     height: auto;
     padding: 15px;
   }
+  nav {
+    max-width: 100%;
+  }
   nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     gap: 15px;
     margin-top: 15px;
     max-width: 100%;
